@@ -1,1 +1,1 @@
-console.log("Log de test");
+import "../sass/styles.scss";
