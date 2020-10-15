@@ -1,6 +1,6 @@
 const PageDetail = (argument) => {
     const preparePage = () => {
-        cleanedArgument = argument.replace(/\s+/g, "-");
+        let cleanedArgument = argument.replace(/\s+/g, "-");
 
 
         const fetchGame = (url, argument) => {
